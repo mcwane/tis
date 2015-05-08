@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tooling-information-system/!svn/ver/57/trunk/dev/src/main/java/com/mspl/dpd/bo/impl
+END
+ToolVendorMapServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/tooling-information-system/!svn/ver/57/trunk/dev/src/main/java/com/mspl/dpd/bo/impl/ToolVendorMapServiceImpl.java
+END
+ToolServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/tooling-information-system/!svn/ver/56/trunk/dev/src/main/java/com/mspl/dpd/bo/impl/ToolServiceImpl.java
+END
+VendorServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/tooling-information-system/!svn/ver/56/trunk/dev/src/main/java/com/mspl/dpd/bo/impl/VendorServiceImpl.java
+END

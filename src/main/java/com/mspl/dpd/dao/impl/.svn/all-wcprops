@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tooling-information-system/!svn/ver/57/trunk/dev/src/main/java/com/mspl/dpd/dao/impl
+END
+ToolsVendorHistoryRepoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/tooling-information-system/!svn/ver/57/trunk/dev/src/main/java/com/mspl/dpd/dao/impl/ToolsVendorHistoryRepoImpl.java
+END
+ToolRepositoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tooling-information-system/!svn/ver/57/trunk/dev/src/main/java/com/mspl/dpd/dao/impl/ToolRepositoryImpl.java
+END
+VendorRepositoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/tooling-information-system/!svn/ver/56/trunk/dev/src/main/java/com/mspl/dpd/dao/impl/VendorRepositoryImpl.java
+END
+ToolVendorMapRepoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/tooling-information-system/!svn/ver/57/trunk/dev/src/main/java/com/mspl/dpd/dao/impl/ToolVendorMapRepoImpl.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tooling-information-system/!svn/ver/55/trunk/dev/src/main/webapp/WEB-INF
+END
+spring-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tooling-information-system/!svn/ver/61/trunk/dev/src/main/webapp/WEB-INF/spring-context.xml
+END
+mvc-dispatcher-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/tooling-information-system/!svn/ver/42/trunk/dev/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tooling-information-system/!svn/ver/42/trunk/dev/src/main/webapp/WEB-INF/web.xml
+END
+hibernate.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tooling-information-system/!svn/ver/21/trunk/dev/src/main/webapp/WEB-INF/hibernate.properties
+END

@@ -1,0 +1,37 @@
+
+.panel ul {
+    margin-bottom:0px;
+}
+
+.navbar {
+    margin-bottom:0;
+}
+.navbar-default {
+    background-color: #428bca;
+    border-color: white;
+    color: #ffffff;
+}
+.navbar-brand {
+    color: #ffffff
+}
+
+td {
+    padding: 3px 10px;
+}
+
+.selected {
+    background-color: yellow;
+}
+
+.searchtool {
+    color: #000000;
+    width: 300px;
+}
+
+.vendor-name {
+    width: 9%;
+}
+
+/*.tools-table tbody tr:hover {
+    background: #428bca;
+}*/

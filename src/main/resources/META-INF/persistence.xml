@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+ http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd" version="1.0">
+
+    <persistence-unit name="toolinginventory" >
+        <description>Tooling Information System Connection</description>
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <!--<jar-file>packedEntity.jar</jar-file>-->
+        <class>com.mspl.dpd.entity.ToolMasterEntity</class>
+        <class>com.mspl.dpd.entity.ToolsVendorMapEntity</class>
+        <class>com.mspl.dpd.entity.VendorMasterEntity</class>
+        <class>com.mspl.dpd.entity.ToolsVendorHistoryEntity</class>
+    </persistence-unit>
+
+</persistence>

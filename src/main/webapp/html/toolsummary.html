@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+/home/sudhir/workspace/trunk/dev/src/main/webapp/html/toolsummary.html
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tooling Information System - TIS</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/select2.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/toolsummary.css"/>
+
+</head>
+
+<body>
+
+<div class="navbar navbar-default navbar-static-top" data-ng-controller="BlogController">
+    <div class="container pull-left">
+        <div class="navbar-brand" style="color: #ffffff"><b>Tooling Information System - MSPL</b></div>
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <span class="panel-title"><u>Tooling Summary</u></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span><input id="toolsearch" class="searchtool" type="search" title="Search ( Type '/' )" placeholder="press enter key for searching the" name="toolsearch" data-bind="value: query,event: {keypress : enterSearch}" /></span>
+
+        <div class="btn-toolbar pull-right" role="toolbar">
+            <div class="btn-group">
+                <a href="/tis/tools/excelexport">
+                    <button class="btn btn-sm btn-primary">Export</button>
+                </a>
+            </div>
+            <!--<div class="btn-group">-->
+                <!--<button class="btn btn-sm btn-primary" data-bind="visible: updateButton, click: changeAssignment" >Update Vendor</button>-->
+            <!--</div>-->
+
+        </div>
+
+    </div>
+    <table width="90%" id="tableId" class="tools-table table table-striped table-bordered table-condensed">
+        <thead>
+            <tr data-bind="foreach: toolsheaders">
+                <th data-bind="text: title"></th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach: tools">
+            <tr>
+                <td data-bind="text: toolNumber"></td>
+                <td data-bind="text: productGroup"></td>
+                <td data-bind="text: toolName"></td>
+                <td data-bind="text: (toolName() != null) ? toolName().substring(0,6) : '' "></td>
+                <td data-bind="text: patternMaterial"></td>
+                <td data-bind="text: patternCavity"></td>
+                <td data-bind="text: patternQuantity"></td>
+                <td data-bind="text: cbMaterial"></td>
+                <td data-bind="text: cbCavity"></td>
+                <td data-bind="text: cbQuantity"></td>
+                <td data-bind="text: plateMaterial"></td>
+                <td data-bind="text: plateQuantity"></td>
+                <td class = "vendor-name" data-bind="text: vendor, visible: !$root.isItemEditing($data)"></td>
+                <td class = "vendor-name" data-bind="visible: $root.isItemEditing($data)">
+                    <select style="width: 100%;" data-bind="options: $root.vendors,
+                                       optionsText: 'vendorName',
+                                       optionsValue: 'vendorId',
+                                       value:$root.selectedVendor, select2: { }"></select>
+                </td>
+                <td data-bind="text: toolingCost"></td>
+                <td class="tools">
+                    <a class="button toolButton"
+                       href="#"
+                       data-bind="click: $root.editTool.bind($root), visible: !$root.isItemEditing($data)">Edit</a>
+                    <a class="button toolButton"
+                       href="#"
+                       data-bind="click: $root.applyTool.bind($root), visible: $root.isItemEditing($data)">Apply</a></br>
+                    <a class="button toolButton"
+                       href="#"
+                       data-bind="click: $root.removeVendor.bind($root), visible: ($root.isItemEditing($data)) && (isAssigned)">Remove</br></a>
+                    <a class="button toolButton"
+                       href="#"
+                       data-bind="click: $root.cancelEdit.bind($root), visible: $root.isItemEditing($data)">Cancel</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script src="../tpjs/knockout-3.1.0.js"></script>
+<script src="../tpjs/jquery-1.11.1.min.js"></script>
+<script src="../js/toolsummary.js"></script>
+<script src='../js/select2.js'></script>
+<script src='../tpjs/knockout-mapping.js'></script>
+<script src='../tpjs/angular.js'></script>
+</body>
+</html>

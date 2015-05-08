@@ -1,0 +1,6 @@
+# MySql database Config
+datasource.driverClassName=com.mysql.jdbc.Driver
+datasource.url=jdbc:mysql://10.250.51.96:3307/toolinginventory
+datasource.username=test
+datasource.password=test
+datasource.dialect=org.hibernate.dialect.MySQLDialect

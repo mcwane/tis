@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tooling-information-system/!svn/ver/57/trunk/dev/src/main/java/com/mspl/dpd/entity
+END
+ToolMasterEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/tooling-information-system/!svn/ver/56/trunk/dev/src/main/java/com/mspl/dpd/entity/ToolMasterEntity.java
+END
+VendorMasterEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/tooling-information-system/!svn/ver/56/trunk/dev/src/main/java/com/mspl/dpd/entity/VendorMasterEntity.java
+END
+ToolsVendorMapEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tooling-information-system/!svn/ver/56/trunk/dev/src/main/java/com/mspl/dpd/entity/ToolsVendorMapEntity.java
+END
+ToolsVendorHistoryEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/tooling-information-system/!svn/ver/57/trunk/dev/src/main/java/com/mspl/dpd/entity/ToolsVendorHistoryEntity.java
+END
